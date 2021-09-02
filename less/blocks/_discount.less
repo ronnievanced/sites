@@ -1,0 +1,138 @@
+.discount {
+    background: #64AEE9;
+    position: relative;
+
+    img {
+        padding-bottom: 18px;
+        width: 100%;
+    }
+}
+
+.discount__title {
+    padding: 28px 15px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    color: #FFFFFF;    
+    text-align: center;
+}
+
+.discount__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.discount__content-bottom {
+    margin-top: -70px;
+}
+
+.discount__left {
+    position: relative;
+    top: -9px;
+    right: -13px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 15px 0 0 15px;
+    text-align: center;
+
+    @media (max-width: 388px) {
+        height: 109px;
+    }
+
+    @media (max-width: 376px) {
+        width: 114px;
+    }
+
+    p {
+        margin-bottom: 18px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 12px;
+        color: #474747;
+
+        @media (max-width: 414px) {
+            font-size: 10px;
+            line-height: 10px;
+        }
+    }
+
+    span {
+        font-size: 22px;
+        line-height: 24px;
+        text-decoration-line: line-through;
+        color: #8A8A8A;
+
+        @media (max-width: 414px) {
+            font-size: 18px;
+        }
+    }
+}
+
+.discount__mid {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 147px;
+        height: 160px;
+    }
+}
+
+.discount__mid-text {
+    position: absolute;
+    text-align: center;
+
+    p {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    span {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 24px;
+        color: #FFFFFF;        
+    }
+}
+
+.discount__right {
+    position: relative;
+    top: -9px;
+    left: -13px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 0 15px 15px 0;
+    text-align: center;
+
+    p {
+        margin-bottom: 18px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 12px;
+        color: #474747;
+
+        @media (max-width: 414px) {
+            font-size: 10px;
+            line-height: 10px;
+        }
+    }
+
+    span {
+        font-size: 22px;
+        line-height: 24px;
+        color: #8A8A8A;
+
+        @media (max-width: 414px) {
+            font-size: 18px;
+        }
+    }
+}
